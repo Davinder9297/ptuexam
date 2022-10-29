@@ -1,3 +1,4 @@
+import Link from 'next/link'
 const Index=()=>{
   return (
   <><div className="h-screen w-full flex ">
@@ -14,7 +15,7 @@ const Index=()=>{
       <div className="w-[95.5%] mt-8 bg-indigo-600 h-9 rounded ml-6 text-center pt-2 text-sm font-semibold text-white shadow-2xl">SIGN IN</div>
     </form>
   </div>
-  <div className="underline text-right mt-6 text-blue-800"><a href="/">Reset Password</a></div>
+  <div className="underline text-right mt-6 text-blue-800"><Link href="/">Reset Password</Link></div>
   <div className="flex justify-end mt-3"><div className="h-7 rounded w-64 text-center border text-rose-500 text-xs pt-1 border-rose-300 font-bold">ANNOUNCEMENTS</div></div>
   <div className="flex mt-10 justify-center text-gray-500 text-sm">Copyright © <div className="mx-1">IK Gujral Punjab Technical University </div> 2022.</div>
   </div>
